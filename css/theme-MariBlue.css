@@ -39,6 +39,37 @@ Copyright (C) 2016 Coderare
 25. Media Queries
 
 -------------------------------------------------------------------*/
+
+/* Countdown Timer */
+.countdown-timer {
+    border: 2px solid #ffffff;
+  border-bottom: 1px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px;
+    overflow: hidden;
+    background-color: #4c9cef;
+}
+
+.countdown-timer span {
+  font-size: 12px;
+    font-weight: 70;
+    color: #ffffff;
+    text-align: center;
+  display: inline-block;
+}
+
+.countdown-timer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+  text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+
 /* ------------------------------------- */
 /* @Import & Reset  ................... */
 /* ------------------------------------- */
