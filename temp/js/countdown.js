@@ -99,7 +99,7 @@
 })(jQuery);
 
 $('.countdown').downCount({
-            date: '11/14/2018 15:00:00',   // Change the launch date from here
+            date: '11/14/2017 15:00:00',   // Change the launch date from here
             offset: +5.5
           }, function () {
              alert('Countdown Done, We are just going to launch our website!');
