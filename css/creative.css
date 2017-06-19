@@ -3,6 +3,43 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+/* Countdown Timer */
+.countdown-timer {
+  display: block;
+    border: 2px solid #ffffff;
+  border-bottom: 1px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #4c9cef;
+}
+
+.countdown-timer span {
+  font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.countdown-timer p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+  text-transform: capitalize;
+    margin-top: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+
 html,
 body {
   height: 100%;
