@@ -95,7 +95,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0072ff; }
+  background: #4AC9E3; }
 
 h1 {
   font-size: 2.369em;
@@ -131,25 +131,21 @@ h6 {
   position: relative;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 30%;
   height: 100vh;
   overflow: hidden; }
 
 #rightSide {
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 50%;
+  left: 30%;
+  width: 70%;
   height: 100%;
   overflow-x: hidden;
   background: #fff; }
 
 .gradient {
-  -webkit-background: linear-gradient(rgba(0, 198, 255, 0.95), rgba(0, 114, 255, 0.95));
-  -ms-background: linear-gradient(rgba(0, 198, 255, 0.95), rgba(0, 114, 255, 0.95));
-  -moz-background: linear-gradient(rgba(0, 198, 255, 0.95), rgba(0, 114, 255, 0.95));
-  -o-background: linear-gradient(rgba(0, 198, 255, 0.95), rgba(0, 114, 255, 0.95));
-  background: linear-gradient(rgba(0, 198, 255, 0.95), rgba(0, 114, 255, 0.95)); }
+  background: #4AC9E3; }
 
 /* ------------------------------------- */
 /* Home ................... */
@@ -190,7 +186,7 @@ h6 {
 .social_icons, #homeCenter .social_icons {
   position: absolute;
   left: 0;
-  bottom: 50px;
+  bottom: 30px;
   width: 100%;
   font-size: 1em;
   padding-left: 10%;
@@ -223,7 +219,7 @@ h6 {
 .quotes-stripe {
   width: 100%;
   padding: 10% 8%;
-  background: #121619;
+  background: #ADAEB0;
   color: #fff;
   display: table; }
   .quotes-stripe .quote-mark {
@@ -279,13 +275,13 @@ h6 {
 .twitter {
   width: 100%;
   padding: 10% 8%;
-  background: #121619;
+  background: #ADAEB0;
   color: #fff;
   text-align: center; }
   .twitter i {
     display: block;
     font-size: 60px;
-    color: #0072ff;
+    color: #4AC9E3;
     margin-bottom: 5px; }
   .twitter p {
     font-size: 1em;
@@ -296,7 +292,7 @@ h6 {
     font-weight: 400; }
   .twitter h6 {
     font-weight: 500;
-    color: #0072ff; }
+    color: #4AC9E3; }
 
 /* ------------------------------------- */
 /* Sider ................... */
@@ -349,7 +345,7 @@ h6 {
       -moz-transition: 0.3s;
       -o-transition: 0.3s;
       transition: 0.3s;
-      background: #121619;
+      background: #ADAEB0;
       bottom: -70px;
       height: 70px; }
       .project .item .caption .photo-details {
@@ -373,14 +369,14 @@ h6 {
           font-size: 12px;
           font-weight: 500;
           margin: 0;
-          color: #0072ff; }
+          color: #000; }
       .project .item .caption .view {
         margin: 20px 15px;
         text-align: center;
         height: 30px;
         width: 60px;
         line-height: 30px;
-        background: #0072ff;
+        background: #4AC9E3;
         color: #fff;
         font-size: 12px;
         float: right;
@@ -403,8 +399,8 @@ h6 {
     position: fixed;
     z-index: 3;
     top: 0;
-    left: 50%;
-    width: 50%;
+    left: 30%;
+    width: 70%;
     height: 100%;
     background: #fff;
     overflow: auto;
@@ -456,7 +452,7 @@ h6 {
     height: 50px;
     width: 50px;
     overflow: hidden;
-    background: #0072ff;
+    background: #4AC9E3;
     -webkit-transform: translateX(100px);
     -ms-transform: translateX(100px);
     -moz-transform: translateX(100px);
@@ -531,7 +527,7 @@ h6 {
           font-size: 12px;
           font-weight: 500;
           margin: 0;
-          color: #0072ff; }
+          color: #4AC9E3; }
     .portfolio .item:hover .photo-details {
       -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
@@ -612,15 +608,31 @@ h6 {
 /* ------------------------------------- */
 /* Countdown ................... */
 /* ------------------------------------- */
+.row .countdown-timer {
+  text-align: center;
+  display: inline;
+}
+.countdown-timer * {
+  display: inline;
+}
+.row {
+  width: 50%;
+  margin: 0 auto;
+}
+.countdown-timer {
+  text-transform: uppercase;
+  font-weight: bold; 
+  font-size: 160%;
+}
 #countdown {
   width: 100%;
-  padding: 10% 8%;
-  background: #121619;
+ 
+  background: #ADAEB0;
   color: #fff; }
   #countdown > div {
     padding: 0;
     height: 100%;
-    display: table; }
+    display: inline; }
   #countdown .title {
     display: table-cell;
     vertical-align: middle;
@@ -702,7 +714,7 @@ h6 {
 #review {
   width: 100%;
   padding: 10% 8%;
-  background: #121619;
+  background: #ADAEB0;
   color: #fff; }
   #review .customer-review {
     text-align: center; }
@@ -722,7 +734,7 @@ h6 {
 .pricing {
   width: 100%;
   padding: 10% 8%;
-  background: #121619;
+  background: #ADAEB0;
   color: #fff; }
 
 .offers ul {
@@ -744,7 +756,7 @@ h6 {
   transition: 0.2s;
   border-radius: 3px;
   cursor: pointer;
-  background-color: #0072ff;
+  background-color: #4AC9E3;
   float: right;
   -webkit-box-shadow: 0px 2px 33px -6px rgba(0, 0, 0, 0.75);
   -ms-box-shadow: 0px 2px 33px -6px rgba(0, 0, 0, 0.75);
@@ -801,11 +813,11 @@ h6 {
       margin: 0 auto;
       width: 100%; }
     .member .member-img .member-overlay {
-      -webkit-background: linear-gradient(rgba(18, 22, 25, 0.5), #121619);
-      -ms-background: linear-gradient(rgba(18, 22, 25, 0.5), #121619);
-      -moz-background: linear-gradient(rgba(18, 22, 25, 0.5), #121619);
-      -o-background: linear-gradient(rgba(18, 22, 25, 0.5), #121619);
-      background: linear-gradient(rgba(18, 22, 25, 0.5), #121619);
+      -webkit-background: linear-gradient(rgba(18, 22, 25, 0.5), #ADAEB0);
+      -ms-background: linear-gradient(rgba(18, 22, 25, 0.5), #ADAEB0);
+      -moz-background: linear-gradient(rgba(18, 22, 25, 0.5), #ADAEB0);
+      -o-background: linear-gradient(rgba(18, 22, 25, 0.5), #ADAEB0);
+      background: linear-gradient(rgba(18, 22, 25, 0.5), #ADAEB0);
       position: absolute;
       height: 100%;
       top: 0;
@@ -834,7 +846,7 @@ h6 {
           margin-bottom: 0; }
         .member .member-img .member-overlay .overlay-info h6 {
           font-weight: 600;
-          color: #0072ff; }
+          color: #4AC9E3; }
         .member .member-img .member-overlay .overlay-info a {
           color: #fff;
           display: inline;
@@ -872,7 +884,7 @@ h6 {
 .clients {
   width: 100%;
   padding: 10% 8%;
-  background: #121619; }
+  background: #ADAEB0; }
   .clients .client {
     text-align: center;
     padding: 20px 0; }
@@ -883,7 +895,7 @@ h6 {
 #subscribe {
   width: 100%;
   padding: 10% 8%;
-  background: #121619;
+  background: #ADAEB0;
   color: #fff;
   -webkit-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -923,8 +935,8 @@ h6 {
   text-align: center; }
   #subscribe-form .input-submit:hover:hover {
     color: #fff;
-    background: #0072ff;
-    border-color: #0072ff; }
+    background: #4AC9E3;
+    border-color: #4AC9E3; }
 #subscribe-form #subscribe-result {
   -webkit-transform: translateY(15px);
   -ms-transform: translateY(15px);
@@ -976,17 +988,17 @@ h6 {
     background: #1d2328;
     color: #fff; }
     #contact_form .input-name:focus, #contact_form .input-email:focus, #contact_form .input-message:focus, #contact_form .submit:focus {
-      background: #121619; }
+      background: #ADAEB0; }
   #contact_form .input-message {
     height: 100px; }
   #contact_form .submit {
     position: relative;
-    background: #0072ff;
+    background: #4AC9E3;
     width: 100%;
     height: 40px;
     width: 100%; }
     #contact_form .submit:focus {
-      background: #0072ff; }
+      background: #4AC9E3; }
     #contact_form .submit:hover {
       background: #0067e6; }
 
@@ -1013,7 +1025,7 @@ address {
   address i {
     font-size: 1.5em;
     padding-right: 5px;
-    color: #0072ff; }
+    color: #4AC9E3; }
 
 /* ------------------------------------- */
 /* Footer ................... */
@@ -1024,7 +1036,7 @@ footer {
   display: table;
   width: 100%;
   padding: 5%;
-  background: #121619;
+  background: #ADAEB0;
   color: #fff; }
   footer p {
     display: table-cell;
@@ -1067,7 +1079,7 @@ footer {
   text-align: center;
   padding: 0.625em 1.5625em; }
   .button-light:hover:hover {
-    color: #0072ff;
+    color: #4AC9E3;
     background: #fff;
     border-color: #fff; }
 
@@ -1080,10 +1092,10 @@ footer {
   transition: 0.2s;
   border: 2px solid transparent;
   padding: 0.625em 1.5625em;
-  background: #0072ff;
+  background: #4AC9E3;
   border-radius: 3px; }
   .button-solid:focus {
-    background: #0072ff; }
+    background: #4AC9E3; }
   .button-solid:hover {
     background: #0067e6; }
 
@@ -1098,7 +1110,7 @@ button:focus {
 
 .filled {
   background: #fff;
-  color: #0072ff;
+  color: #4AC9E3;
   font-weight: 700;
   display: inline-block;
   padding: 5px 10px; }
@@ -1238,14 +1250,10 @@ p {
   font-weight: 500;
   margin-bottom: 20px; }
   p a {
-    color: #0072ff;
+    color: #4AC9E3;
     text-decoration: none; }
     p a:hover {
       color: #004499; }
-
-.row {
-  padding: 0;
-  margin: 0; }
 
 a {
   color: #fff;
@@ -1263,11 +1271,11 @@ a {
 
 ::-moz-selection {
   color: #fff;
-  background: #0072ff !important; }
+  background: #4AC9E3 !important; }
 
 ::selection {
   color: #fff;
-  background: #0072ff !important; }
+  background: #4AC9E3 !important; }
 
 img {
   max-width: 100%;
@@ -1300,7 +1308,7 @@ img {
 /* photoSwipe */
 .pswp__ui--fit .pswp__top-bar,
 .pswp__ui--fit .pswp__caption {
-  background: #121619; }
+  background: #ADAEB0; }
 
 .pswp__item {
   cursor: url("../img/icon-zoom-out.png"), pointer; }
@@ -1311,7 +1319,7 @@ img {
 .pswp__button--arrow--left:before, .pswp__button--arrow--right:before {
   content: '';
   top: 35px;
-  background-color: #121619;
+  background-color: #ADAEB0;
   height: 30px;
   width: 32px;
   position: absolute; }
