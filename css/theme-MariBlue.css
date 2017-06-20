@@ -446,8 +446,8 @@ h6 {
       transform: translateX(0); }
   .project .close {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 60px;
+    right: 10px;
     z-index: 3;
     text-align: center;
     height: 50px;
