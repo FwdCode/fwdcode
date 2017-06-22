@@ -51,6 +51,7 @@ Copyright (C) 2016 Coderare
 @import url(photoswipe.css);
 @import url(default-skin/default-skin.css);
 @import url(jquery.mCustomScrollbar.min.css);
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -91,7 +92,7 @@ table {
 /* Generic styles ................... */
 /* ------------------------------------- */
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
