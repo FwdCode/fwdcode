@@ -1,7 +1,4 @@
 <?php
-    // My modifications to mailer script from:
-    // http://blog.teamtreehouse.com/create-ajax-contact-form
-    // Added input sanitizing to prevent injection
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -24,7 +21,7 @@
         $recipient = "hello@fwdcode.org";
 
         // Set the email subject.
-        $subject = "You have a message from $name";
+        $subject = "New contact from $name";
 
         // Build the email content.
         $email_content = "Name: $name\n";
