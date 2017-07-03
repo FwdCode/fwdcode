@@ -81,9 +81,9 @@
 
             // based on the date change the refrence wording
             var ref_days = (days === 1) ? 'day' : 'days',
-                ref_hours = (hours === 1) ? 'hour' : 'hours',
-                ref_minutes = (minutes === 1) ? 'minute' : 'minutes',
-                ref_seconds = (seconds === 1) ? 'second' : 'seconds';
+                ref_hours = (hours === 1) ? 'hr' : 'hrs',
+                ref_minutes = (minutes === 1) ? 'min' : 'mins',
+                ref_seconds = (seconds === 1) ? 'sec' : 'secs';
 
             // set to DOM
             container.find('.days').text(days);
@@ -107,5 +107,5 @@ $('.countdown').downCount({
             date: '11/14/2017 15:00:00',   // Change the launch date from here
             offset: +5.5
           }, function () {
-             alert('Countdown Done, We are just going to launch our website!');
+             alert('Countdown Done, FwdCode is happening!');
         });

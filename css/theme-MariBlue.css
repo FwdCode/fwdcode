@@ -956,6 +956,9 @@ h6 {
 /* ------------------------------------- */
 /* Contact Form ................... */
 /* ------------------------------------- */
+
+
+
 #contact {
   width: 100%;
   padding: 10% calc(8% + 5px);
@@ -1003,6 +1006,8 @@ h6 {
       background: #4AC9E3; }
     #contact_form .submit:hover {
       background: #0067e6; }
+
+
 
 #form-messages {
   padding: 0 5px;
