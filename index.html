@@ -27,8 +27,67 @@
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     
+    #mce_embed_signup .mc_field_group {
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 45px;
+    border-radius: 3px;
+    color: #fff !important;
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-weight: 600;
+    background: #1d2328;
+    color: #fff; 
+    background: #4AC9E3;}
+   
+    #mc_embed_signup .button {
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 45px;
+    border-radius: 3px;
+    color: #fff !important;
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-weight: 600;
+    background: #1d2328;
+    background: #4AC9E3;
+    color: #fff; }
+    
+    #mc_embed_signup .button:hover 
+    {background-color:#215c68;}
+    
+    #mc_embed_signup input {
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 45px;
+    border-radius: 3px;
+    color: #fff !important;
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-weight: 600;
+    background: #1d2328;
+    color: #fff; }
+        
+    #mc_embed_signup input:focus{
+    background: #ADAEB0;}
     
 </style>
+         <!-- ^^ code for change color when hover, but not working -->
     </head>
     <body>
       <section class="animsition">
@@ -214,7 +273,7 @@
             </div>
           </div>
             
-            <div id="schedule" class="about" href="schedule">
+            <div id="schedule" class="about" href="schedule" style="background:rgb(231,231,231)">
             <h2>The schedule will go here.</h2>
             <p>
               Schedule TBD
@@ -261,6 +320,8 @@
 
 
           <div id="sponsors" class="project" href="#sponsors">
+              <br>
+              <br>
               <h2>Sponsor logos will go here.</h2>
               
             
@@ -427,6 +488,7 @@
           </div>
             
             <div id="team" class="project" href="#team">
+                <br><br>
                  <h1 align="center">Our <strong>Team</strong></h1>
             
             <ul class="gallery project_navigation">
@@ -448,7 +510,7 @@
               <li class="item col-sm-6 col-xs-12">
                 <figure>
                   <!-- Your picture -->
-                  <img src="img/Headshots/caitlin2.jpg"  alt="Caitlin Stanton" class="img-responsive" />
+                  <img src="img/Headshots/caitlin4.jpg"  alt="Caitlin Stanton" class="img-responsive" />
                   <!-- Picture's description below this one -->
                   <figcaption class="caption">
                     <div class="photo-details">
@@ -589,7 +651,7 @@
 
           <div id="contact" class="row">
               <h2><strong>Get in touch</strong>, we'd love to hear from you.</h2>
-              <p>Have a question? Comment? Funny joke? Let us know at: </p>
+              <p>Have a question? Comment? Suggestion? Let us know at: </p>
 
               <address class="row">
                 <span class="col-sm-6 col-xs-12">
@@ -623,42 +685,23 @@
 <div id="mc_embed_signup" style="text-align:center">
 <form action="https://fwdcode.us16.list-manage.com/subscribe/post?u=916715c2a59e611bf291ed805&amp;id=77ac96902f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-        <h2>Want to stay up to date on everything FwdCode? </h2><h1><strong>Sign up</strong> for our mailing list!</h1>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div><br>
+        <h2 style="color:#666666">Want to stay up to date on everything FwdCode? </h2><h1><strong>Sign up</strong> for our mailing list!</h1>
+<div class="indicates-required" style="color:#666666"><span class="asterisk">*</span> indicates required</div><br>
 <div class="mc-field-group">
-    <label for="mce-EMAIL"><strong>email address </strong> <span class="asterisk">*</span>
-</label>
-	<input  type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+	<input  type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email *">
 </div><br>
 <div class="mc-field-group">
-    <label for="mce-FNAME" style="padding-right:39px"><strong>first name</strong> </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME" >
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
 </div><br>
-<div class="mc-field-group">
-    <label for="mce-LNAME" style="padding-right:39px"><strong>last name</strong> </label>
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+<div class="mc-field-group" >
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
 </div><br>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_916715c2a59e611bf291ed805_77ac96902f" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="border: none;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100px;
-    height: 45px;
-    border-radius: 3px;
-    color: #fff !important;
-    -webkit-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
-    font-weight: 600;
-    background: #1d2328;
-    color: #fff; 
-    background: #4AC9E3; "></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
 </div>
