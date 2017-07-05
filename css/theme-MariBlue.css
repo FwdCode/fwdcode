@@ -326,6 +326,73 @@ h6 {
 /* ------------------------------------- */
 /* Project ................... */
 /* ------------------------------------- */
+
+ul.team-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}	
+
+ul.team-list li {
+	display: inline-block;
+	margin: 0 1em 1em 1%;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    background-position: center;
+    background-size: contain;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.circular {
+	width: 300px;
+	height: 300px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    background-position: center;
+    background-size: contain;
+}
+
+span.text-content {
+font-family: Poppins,sans-serif;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  position: absolute;
+  top: 0;
+  opacity:0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+  		width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    background-position: center;
+    background-size: contain;
+}
+
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.team-list li:hover span.text-content{
+  opacity: 1;
+}
+
 .project, .portfolio, .swipe_portfolio {
   position: relative;
   padding: 15px 7.5px; }
@@ -386,17 +453,26 @@ h6 {
         float: right;
         font-weight: 600; }
     .project .item:hover .photo-details {
-      -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -o-transform: translateY(0);
-      transform: translateY(0); }
+      -webkit-transform: translateY(-0px);
+      -ms-transform: translateY(-0px);
+      -moz-transform: translateY(-0px);
+      -o-transform: translateY(-0px);
+      transform: translateY(-0px); 
+        text-align: center;
+        vertical-align: center;
+     }
     .project .item:hover .caption {
       -webkit-transform: translateY(-70px);
       -ms-transform: translateY(-70px);
       -moz-transform: translateY(-70px);
       -o-transform: translateY(-70px);
-      transform: translateY(-70px); }
+      transform: translateY(-70px); 
+        opacity:0.7;
+        height: 100%;
+        border-radius: 50%;
+
+        text-align: center;
+        vertical-align: center;}
     .project .item img {
       width: 100%; }
   .project .project_info {
