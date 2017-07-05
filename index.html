@@ -67,6 +67,28 @@
     background: #4AC9E3;
     color: #fff; }
     
+    .nextpagebutton {
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 45px;
+    border-radius: 3px;
+    color: #fff !important;
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    font-weight: 600;
+    background: #1d2328;
+    background: #4AC9E3;
+    color: #fff;
+    text-align: center;}
+    
+    .nextpagebutton:hover 
+    {background-color:#215c68;}
+    
     #mc_embed_signup .button:hover 
     {background-color:#215c68;}
     
@@ -105,41 +127,7 @@
             <div class="h-content">
               <h1>Hello World!<br> We are FwdCode</h1>
               <p>A college hackathon promoting unity and social good.<br><br>One for all, all for code.</p>
-              <!-- CountDown Timer Start -->
-                <!--
-           <div class="row" style="bottom: 50px;">
-                                <div class="countdown">
-                                    
-                                    <div>
-                                       <div class="countdown-timer bg-color-1">
-                                        <span class="days">00</span>
-                                        <p class="days_ref">days</p>
-                                       </div>
-                                    </div>
-                                    
-                                    <div>
-                                      <div class="countdown-timer bg-color-4">
-                                        <span class="hours">00</span>
-                                        <p class="hours_ref">hours</p>
-                                       </div>
-                                    </div>
-                                    
-                                    <div>
-                                      <div class="countdown-timer bg-color-6">
-                                        <span class="minutes">00</span>
-                                        <p class="minutes_ref">minutes</p>
-                                       </div>
-                                    </div>
-                                    
-                                    <div>
-                                       <div class="countdown-timer bg-color-2">
-                                        <span class="seconds">00</span>
-                                        <p class="seconds_ref">sec</p>
-                                       </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- CountDown Timer End -->
+             
            </div>
 
             <ul class="social_icons">
@@ -207,7 +195,7 @@
             </p>
 
 
-            <div class="service row">
+           <!--  UNCOMMENT WHEN DATE IS CHOSEN!!!!!!!!! <div class="service row">
               <div class="feature col-sm-3 col-xs-3">
                
                    <div class="row" style="bottom: 50px;"> 
@@ -274,7 +262,11 @@
                                 </div>
                             </div>
               </div>
-            </div>
+            </div> -->
+              
+              <p>
+             Put on your hardhats -- our site is under construction! Please pardon our appearance in the meantime!
+            </p>
           </div>
             
             <div id="schedule" class="about" href="schedule" style="background:rgb(231,231,231)">
@@ -326,7 +318,10 @@
           <div id="sponsors" class="project" href="#sponsors">
               <br>
               <br>
-              <h2>Sponsor logos will go here.</h2>
+               <div align=center>
+              <h2 style="text-align=center;">Sponsor logos will go here. Interested in sponsoring?</h2>
+             <button type="button" class="nextpagebutton" onclick="location.href='sponsorship.html'" al="center">View our sponsorship tiers here!</button>
+              </div>
               
             
             <!--<ul class="gallery project_navigation">
@@ -664,7 +659,7 @@
                 </span>
               </address>
 
-              <form id="contact_form" class="row" method="post" action="php/mailer.php">
+              <form id="contact_form" class="row" method="post" action="php/mailerhello.php">
                 <div class="col-sm-6 col-xs-12">
                   <input type="name" name="name" class="input-name" placeholder="Name">
                   <input type="email" name="email" class="input-email" placeholder="Email">
