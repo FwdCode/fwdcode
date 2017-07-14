@@ -862,13 +862,10 @@ button.accordion.active:after {
   padding: 10% 8%;
   background: #f5f5f5;
   color: #000; 
-  height:auto;}
+  height:auto;
+  margin: 0 auto;}
   .team p {
     color: #666666; }
-
-.team div {
-  display: block;
-}
 
 .member {
   padding: 7.5px;
@@ -947,14 +944,13 @@ button.accordion.active:after {
 
 ul.team-list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
   text-align: center;
 } 
 
 ul.team-list li {
   display: inline-block;
-  margin: 0 1em 1em 1%;
+  margin: 5%;
   position: relative;
   width: 300px;
   height: 300px;
@@ -969,7 +965,8 @@ ul.team-list li {
 }
 
 span.text-content {
-font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
   background: rgba(0,0,0,0.5);
   color: white;
   cursor: pointer;
