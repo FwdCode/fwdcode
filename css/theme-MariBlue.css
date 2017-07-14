@@ -965,8 +965,8 @@ ul.team-list li {
 }
 
 span.text-content {
-  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-family: Poppins,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 13px;
   background: rgba(0,0,0,0.5);
   color: white;
   cursor: pointer;
@@ -979,7 +979,7 @@ span.text-content {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
-      width: 300px;
+width: 300px;
   height: 300px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
