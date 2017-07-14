@@ -3,6 +3,7 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
