@@ -377,6 +377,15 @@ button.accordion.active:after {
   .about p {
     color: #666666; }
 
+.faq {
+    width: 100%;
+  padding: 10% 8%;
+
+   
+}
+  .faq p {
+    color: #666666; }
+
 .service {
   text-align: center;
   margin-top: 50px !important; }
