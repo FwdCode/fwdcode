@@ -45,7 +45,9 @@ $( document ).ready(function() {
  /* ------------------------------------- */
  /* Project Gallery   ................... */
  /* ------------------------------------- */
-  $(function() {
+
+    
+    $(function() {
 
     function showContent(e, element, navigation, info, img, close) {
       var eventTarget = e.target.hash;
