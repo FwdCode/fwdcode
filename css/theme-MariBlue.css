@@ -93,6 +93,30 @@ table {
 /* ------------------------------------- */
 /* Generic styles ................... */
 /* ------------------------------------- */
+
+
+.scrollNext {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 7em;
+    color: black;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+
+.scrollNext:hover {
+    -ms-transform: rotate(180deg) translateY(-20px);
+    -webkit-transform: rotate(180deg) translateY(-20px);
+    transform: rotate(180deg) translateY(-20px);
+}
+
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.1em;
@@ -1227,6 +1251,8 @@ footer {
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s; }
+
+
     footer .drag:hover {
       -webkit-transform: translateY(-10px);
       -ms-transform: translateY(-10px);
