@@ -49,28 +49,190 @@ table {
 /* Generic styles ................... */
 /* ------------------------------------- */
 
-body, html {
-    height: 100%;
-}
-
 .parallax { 
     /* The image used */
-    background-image: url("../img/color%20from%20computer%20smaller.jpeg");
+    background-image: url("../img/color%20from%20computer%20small%20crop.jpeg");
 
     /* Full height */
     height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    
+} 
 
-@media only screen and (max-device-width: 1024px) {
+@media (max-device-width: 320px) {
     .parallax {
         background-attachment: scroll;
     }
+}
+
+/* Two columns side by side */
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.headshotEmily {
+    background-image: url("../img/Headshots/emily2bw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headshotEmily:hover {
+    background-image: url("../img/Headshots/emily2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    transition:all 0.6s;
+    transform:scale(1.05);
+}
+.headshotCaitlin {
+    background-image: url("../img/Headshots/caitlinbw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headshotCaitlin:hover {
+    background-image: url("../img/Headshots/caitlin4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    transition:all 0.6s;
+    transform:scale(1.05);
+}
+.headshotIsabelle {
+    background-image: url("../img/Headshots/isabellebw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headshotIsabelle:hover {
+    background-image: url("../img/Headshots/isabelle2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    transition:all 0.6s;
+    transform:scale(1.05);
+}
+.headshotEmilyK {
+    background-image: url("../img/Headshots/emilykbw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headshotEmilyK:hover {
+    background-image: url("../img/Headshots/emilykaperst2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    transition:all 0.6s;
+    transform:scale(1.05);
+}
+.headshotJulia {
+    background-image: url("../img/Headshots/juliabw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headshotJulia:hover {
+    background-image: url("../img/Headshots/julia2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    transition:all 0.6s;
+    transform:scale(1.05);
+}
+.headshotShalini {
+    background-image: url("../img/Headshots/shalinibw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headshotShalini:hover {
+    background-image: url("../img/Headshots/shalini2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    transition:all 0.6s;
+    transform:scale(1.05);
+}
+.headshotJohn {
+    background-image: url("../img/Headshots/johnbw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headshotJohn:hover {
+    background-image: url("../img/Headshots/john2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    transition:all 0.6s;
+    transform:scale(1.05);
+}
+.headshotRoz {
+    background-image: url("../img/Headshots/rosalindbw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headshotRoz:hover {
+    background-image: url("../img/Headshots/rosalind2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    transition:all 0.6s;
+    transform:scale(1.05);
+}
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
 }
 
 .scrollNext {
