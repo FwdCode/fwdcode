@@ -86,6 +86,34 @@ table {
     }
 }
 
+.bioPL {
+    
+    width:80%; 
+    text-align:justify; 
+    margin-left: 0%
+        
+}
+
+@media (max-width: 850px) {
+    .bioPL {
+        margin-left: 0%;
+    }
+}
+
+.bioPR {
+    
+    width:80%; 
+    text-align:justify; 
+    margin-left: 5%
+        
+}
+
+@media (max-width: 850px) {
+    .bioPR {
+        margin-left: 30%;
+    }
+}
+
 .headshotEmily {
     background-image: url("../img/Headshots/emily2bw.jpg");
     background-size: contain;
