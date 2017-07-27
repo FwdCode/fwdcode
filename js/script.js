@@ -47,6 +47,7 @@ $( document ).ready(function() {
  /* ------------------------------------- */
 
     
+    
     $(function() {
 
     function showContent(e, element, navigation, info, img, close) {
