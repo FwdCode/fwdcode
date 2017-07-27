@@ -404,6 +404,20 @@ h6 {
 #homeCenter .main-logo {
   left: calc(50% - 100px); }
 
+
+.bioSocial  {
+    font-size: 1.4em;
+    transition: all .3s;
+    display: inline-block;
+    padding: 15px;
+    color: dimgray;}
+
+.bioSocial:hover {
+        color: #215c68;
+        transition: .1s;
+    
+}
+
 .social_icons, #homeCenter .social_icons {
   position: absolute;
   left: 0;
