@@ -628,20 +628,6 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
 <script src="js/skrollr.js"></script>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <script>$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-        || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    }
-});</script>
     
 </body>
 </html>
