@@ -37,7 +37,7 @@ $( document ).ready(function() {
     $(function() {
       var $grid = $('.gallery').imagesLoaded( function() {
         $grid.masonry({
-          itemSelector: '.item'
+          itemSelector: '.item',
         });
       });
     });
@@ -46,7 +46,6 @@ $( document ).ready(function() {
  /* Project Gallery   ................... */
  /* ------------------------------------- */
 
-    
     
     $(function() {
 
