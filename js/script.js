@@ -34,13 +34,7 @@ $( document ).ready(function() {
   /* ------------------------------------- */
   /* Masonry Grid    ................... */
   /* ------------------------------------- */
-    $(function() {
-      var $grid = $('.gallery').imagesLoaded( function() {
-        $grid.masonry({
-          itemSelector: '.item',
-        });
-      });
-    });
+  
 
  /* ------------------------------------- */
  /* Project Gallery   ................... */
