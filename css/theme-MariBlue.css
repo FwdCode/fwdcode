@@ -6,7 +6,7 @@
 @import url(photoswipe.css);
 @import url(default-skin/default-skin.css);
 @import url(jquery.mCustomScrollbar.min.css);
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800");
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300i');
 
@@ -113,118 +113,7 @@ table {
     }
 }
 
-.headshotEmily {
-    background-image: url("../img/Headshots/emily2bw.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-.headshotEmily:hover {
-    background-image: url("../img/Headshots/emily2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:relative;
-    transition:all 0.4s;
-    transform:scale(1.05);
-}
-.headshotCaitlin {
-    background-image: url("../img/Headshots/caitlinbw.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.headshotCaitlin:hover {
-    background-image: url("../img/Headshots/caitlin4.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:relative;
-    transition:all 0.4s;
-    transform:scale(1.05);
-}
-.headshotIsabelle {
-    background-image: url("../img/Headshots/isabellebw.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.headshotIsabelle:hover {
-    background-image: url("../img/Headshots/isabelle2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:relative;
-    transition:all 0.8s;
-    transform:scale(1.05);
-}
-.headshotEmilyK {
-    background-image: url("../img/Headshots/emilykbw.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.headshotEmilyK:hover {
-    background-image: url("../img/Headshots/emilykaperst2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:relative;
-    transition:all 0.4s;
-    transform:scale(1.05);
-}
-.headshotJulia {
-    background-image: url("../img/Headshots/juliabw.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.headshotJulia:hover {
-    background-image: url("../img/Headshots/julia2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:relative;
-    transition:all 0.4s;
-    transform:scale(1.05);
-}
-.headshotShalini {
-    background-image: url("../img/Headshots/shalinibw.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.headshotShalini:hover {
-    background-image: url("../img/Headshots/shalini2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:relative;
-    transition:all 0.4s;
-    transform:scale(1.05);
-}
-.headshotJohn {
-    background-image: url("../img/Headshots/johnbw.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.headshotJohn:hover {
-    background-image: url("../img/Headshots/john2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:relative;
-    transition:all 0.4s;
-    transform:scale(1.05);
-}
-.headshotRoz {
-    background-image: url("../img/Headshots/rosalindbw.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.headshotRoz:hover {
-    background-image: url("../img/Headshots/rosalind2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position:relative;
-    transition:all 0.4s;
-    transform:scale(1.05);
-}
 /* Add some shadows to create a card effect */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

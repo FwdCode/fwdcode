@@ -1,214 +1,111 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>FwdCode</title>
-  
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+    <title>FwdCode</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <!-- Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="img/Logos/fwdcode-color-minuscule.png">
+    <!-- Retina iPad Touch Icon-->
+    <!-- <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png"> -->
+    <!-- Retina iPhone Touch Icon-->
+    <!-- <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png"> -->
+    <!-- Standard iPad Touch Icon -->
+    <!-- <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png"> -->
+    <!-- Standard iPhone Touch Icon-->
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="img/favicon-57.png"> -->
+    <!--  Resources style ================== -->
+    
+    <link href="css/theme-MariBlue.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/vendor.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
 
-  <!-- Favicon ================== -->
-  <!-- Standard -->
-  <link rel="shortcut icon" href="img/Logos/fwdcode-color-minuscule.png">
-  <!-- Retina iPad Touch Icon-->
-  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png">
-  <!-- Retina iPhone Touch Icon-->
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png">
-  <!-- Standard iPad Touch Icon-->
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png">
-  <!-- Standard iPhone Touch Icon-->
-  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon-57.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-  <!--  Resources style ================== -->
-  <link href="css/theme-MariBlue.css" rel="stylesheet" type="text/css" media="all"/>
-  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <!-- <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>');
+    </script> -->
 
-  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-
+    <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    
+    <style type="text/css">
     div.panel {
-      padding: 0 18px;
-      background-color: white;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
     }
+    </style>
+    <!-- ^^ code for change color when hover, but not working -->
 
-    #mc_embed_signup{background:none; clear:left; font:14px Poppins,Arial,sans-serif; }
-/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</head>
 
-#mc_embed_signup .mc-field-group {
-  padding-bottom: 0%;
-}
-
-#mce_embed_signup .mc_field_group {
-  border: none;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 100px;
-  height: 45px;
-  border-radius: 3px;
-  color: #fff !important;
-  -webkit-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-  font-weight: 600;
-  background: #1d2328;
-  color: #fff; 
-  background: #4AC9E3;}
-
-  #mc_embed_signup .button {
-    border: none;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100px;
-    height: 45px;
-    border-radius: 3px;
-    color: #fff !important;
-    -webkit-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
-    font-weight: 600;
-    background: #1d2328;
-    background: #4AC9E3;
-    color: #fff; }
-
-    .nextpagebutton {
-      border: none;
-      margin-bottom: 10px;
-      padding: 10px;
-      width: 350px;
-      height: 45px;
-      border-radius: 3px;
-      color: #fff !important;
-      -webkit-transition: 0.2s;
-      -ms-transition: 0.2s;
-      -moz-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s;
-      font-weight: 600;
-      background: #1d2328;
-      background: #4AC9E3;
-      color: #fff;
-      text-align: center;}
-
-      .nextpagebutton:hover 
-      {background-color:#215c68;}
-
-      #mc_embed_signup .button:hover 
-      {background-color:#215c68;}
-
-      #mc_embed_signup input {
-        border: none;
-        margin-bottom: 10px;
-        padding: 10px;
-        width: 200px;
-        height: 45px;
-        border-radius: 3px;
-        color: #fff !important;
-        -webkit-transition: 0.2s;
-        -ms-transition: 0.2s;
-        -moz-transition: 0.2s;
-        -o-transition: 0.2s;
-        transition: 0.2s;
-        font-weight: 600;
-        background: #1d2328;
-        color: #fff; }
-
-        #mc_embed_signup input:focus{
-          background: #ADAEB0;}
-
-        </style>
-        <!-- ^^ code for change color when hover, but not working -->
-      </head>
-      <body>
-
-        <div id="leftSide" >
-          <!--style="background: rgb(44, 106, 119)"-->
-
-          <div id="home" class="">
+<body>
+    <div id="leftSide">
+        <!--style="background: rgb(44, 106, 119)"-->
+        <div id="home" class="">
             <!-- Your logo -->
             <a href="#landing"><img src="img/Logos/fwdcode-color-small.png" alt="" class="main-logo" style="display: block; margin: auto; width:70%"/></a>
-
-            <!-- particles start --> 
+            <!-- particles start -->
             <div id="particles-js" class="gradient" style="background: rgb(44, 106, 119)"></div>
             <div class="count-particles">
-              <span class="js-count-particles"></span>
-            </div> 
-                  
+                <span class="js-count-particles"></span>
+            </div>
             <!-- particles end -->
             <div>
-              <ul class="navbarnew">
-                <li class="navbarElement">
-                  <a class="page-scroll" href="#about" style="height:10%">About</a>
-                </li>
-                <li class="navbarElement">
-                  <a class="page-scroll" href="#schedule" style="height:10%">Schedule</a>
-                </li>
-                <li class="navbarElement">
-                  <a class="page-scroll" href="#faq" style="height:10%">FAQ</a>
-                </li>
-                <li class="navbarElement">
-                  <a class="page-scroll" href="#apply" style="padding-top: 15px">Apply</a>
-                </li>
-                <li class="navbarElement">
-                  <a class="page-scroll" href="#sponsors" style="padding-top: 15px">Sponsors</a>
-                </li>
-                <li class="navbarElement">
-                  <a class="page-scroll" href="#team" style="padding-top: 15px">Team</a>
-                </li>
-                <li class="navbarElement">
-                  <a class="page-scroll" href="#contact" style="padding-top: 15px">Contact</a>
-                </li>
-              </ul>
+                <ul class="navbarnew">
+                    <li class="navbarElement">
+                        <a class="page-scroll" href="#about" style="height:10%">About</a>
+                    </li>
+                    <li class="navbarElement">
+                        <a class="page-scroll" href="#schedule" style="height:10%">Schedule</a>
+                    </li>
+                    <li class="navbarElement">
+                        <a class="page-scroll" href="#faq" style="height:10%">FAQ</a>
+                    </li>
+                    <li class="navbarElement">
+                        <a class="page-scroll" href="#apply" style="padding-top: 15px">Apply</a>
+                    </li>
+                    <li class="navbarElement">
+                        <a class="page-scroll" href="#sponsors" style="padding-top: 15px">Sponsors</a>
+                    </li>
+                    <li class="navbarElement">
+                        <a class="page-scroll" href="#team" style="padding-top: 15px">Team</a>
+                    </li>
+                    <li class="navbarElement">
+                        <a class="page-scroll" href="#contact" style="padding-top: 15px">Contact</a>
+                    </li>
+                </ul>
             </div>
-
             <ul class="social_icons">
-              <li><a href="https://www.facebook.com/FwdCode-323203148101159"><i class="icon ion-social-facebook"></i></a></li>
-              <li><a href="https://www.twitter.com/fwd_code"><i class="icon ion-social-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/fwdcode/"><i class="icon ion-social-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/FwdCode-323203148101159"><i class="icon ion-social-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com/fwd_code"><i class="icon ion-social-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/fwdcode/"><i class="icon ion-social-instagram"></i></a></li>
             </ul>
-
-
-
-          </div>
-
         </div>
-
+    </div>
     <div id="rightSide">
-
-            
-      <div id="landing" class="parallax">
-           <div> <p style="text-align: center; font-size: 13vw; color:black;">FwdCode</p>
-            <p style="text-align: center; font-size: 2vw; color: black; margin-top:-5%;">
-              <strong>a college hackathon promoting unity and social good</strong>
-            </p></div>
-            
-    
-    <!-- Where is the scrolling feature from the bottom one coming from? !!!
+        <div id="landing" class="parallax">
+            <div>
+                <p class="main-head">FwdCode</p>
+                <p class="main-subhead">a college hackathon<br>promoting unity and social good</p>
+            </div>
+            <!-- Where is the scrolling feature from the bottom one coming from? !!!
    
     <div class="scrollNext"> 
       <i class="up ion-arrow-up-c"></i>
     </div> 
 
-    --> 
-        
-            </div>
-            
-          <div id="about" class="about" >
-
-               <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px;"><b>about</b></div><br><br>
-            FwdCode is a non-profit organization which runs college hackathons promoting unity and social good. For 24 hours, hackers from around the country will gather together in one location to create, network, learn, and solve some of today's most pressing issues.
-             
-
-<!--  UNCOMMENT WHEN DATE IS CHOSEN!!!!!!!!! <div class="service row">
+    -->
+        </div>
+        <div id="about" class="about">
+            <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px;"><b>about</b></div>
+            <br>
+            <br> FwdCode is a non-profit organization which runs college hackathons promoting unity and social good. For 24 hours, hackers from around the country will gather together in one location to create, network, learn, and solve some of today's most pressing issues.
+            <!--  UNCOMMENT WHEN DATE IS CHOSEN!!!!!!!!! <div class="service row">
 <div class="feature col-sm-3 col-xs-3">
 
 <div class="row" style="bottom: 50px;"> 
@@ -276,477 +173,482 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
 </div>
 </div>
 </div> -->
-</div>
-
-<div id="schedule" class="about" href="schedule" style="background:rgb(231,231,231)">
-  <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px;"><b>schedule</b></div><br><br>
-  <p>
-    Schedule TBD
-  </p>
-
-</div>
-
-<div id="faq" class="faq" href="faq">
-  <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px;"><b>faq</b></div><br><br>
-  <button class="accordion">What is FwdCode?</button>
-  <div class="panel"><br>
-    <p>FwdCode is a college hackathon promoting unity and social good. Each event is 24 hours long and will be open to college students across the U.S.</p>
-  </div>
-  <button class="accordion">What even is a hackathon anyway?</button>
-  <div class="panel"><br>
-    <p>I'm glad you asked! A hackathon is basically a coding competition, where coders come to create projects and work together. At FwdCode, our hackathon will also include workshops, networking opportunity, prizes, swag, and more!</p>
-  </div>
-  <button class="accordion">Where will FwdCode be held?</button>
-  <div class="panel"><br>
-    <p>Every FwdCode event will be held in a different location. Stay tuned for the location of the first event!</p>
-  </div>
-  <button class="accordion">When will FwdCode be held?</button>
-  <div class="panel"><br>
-    <p>The first FwdCode event will be held in Fall 2017. Stay tuned for the exact dates of the event!</p>
-  </div>
-  <button class="accordion">What do I need to bring to FwdCode?</button>
-  <div class="panel"><br>
-    <p>The only requirements are a computer, any charging equipment you may need, and yourself! Many hackers also like to bring a sleeping bag and/or pillow (there usually isn't much sleeping at a hackathon, but some hackers like to take a nap or two!), toothbrush/toothpaste, or a change of clothes (if you want to freshen up). If you plan on doing any hardware hacking, you need to bring all of the materials you're going to use for that.</p>
-  </div>
-  <button class="accordion">What will be provided?</button>
-  <div class="panel"><br>
-    <p>We will provide three meals (lunch and dinner on the first day and breakfast on the second) as well as abundant snacks and drinks. If you choose not to eat the food we provide, you're responsible for getting your own meals (unless you have an allergy or dietary restriction, which we will accomodate -- just let us know!). We'll also provide outlets, t-shirts, swag, and wifi. If you have any specific questions about what will be provided please email us at hello@fwdcode.org.</p>
-  </div>
-  <button class="accordion">What are the requirements to attend?</button>
-  <div class="panel"><br>
-    <p>The only requirement to attend is that you are a college student. You don't need to have any coding or hackathon experience -- just a willingness to collaborate and create!</p>
-  </div>
-  <button class="accordion">Does it cost anything to attend?</button>
-  <div class="panel"><br>
-    <p>Nope! FwdCode is completely free for anyone who attends. The only cost you're responsible for is getting to the event.</p>
-  </div>
-  <button class="accordion">Will you provide travel reimbursements?</button>
-  <div class="panel"><br>
-    <p>Maybe! We'll release more information on that when we can.</p>
-  </div>
-  <button class="accordion">Can I attend if I'm in high school?</button>
-  <div class="panel"><br>
-    <p>Maybe! Email us at hello@fwdcode.org if you're in high school and would like to attend.</p>
-  </div>
-  <br>
-  <p>
-    <strong>Have a question that we didn't answer? Email us at hello@fwdcode.org or fill out the contact form below!</strong><br>
-  </p>
-
-
-</div>
-
-<div id="apply" class="signup" href="#apply">
-    <div style="color:white; border-bottom: 1.5px solid white; margin-right:700px; font-size:30px;"><b>apply</b></div><br><br>
-  
-    <h3>Want to <strong>attend FwdCode?</strong></h3><p style="text-align:left; font-size:20px">Sign ups will open soon! In the meantime, keep up to date with everything FwdCode signing up for our general mailing list <a href="#contact"><strong>below!</strong></a></p>
-    <br>
-    <h3>Interested in helping <strong>organize FwdCode?</strong></h3><p style="text-align:left; font-size:20px"> Applications for our team are closed, but if you're interested in being a Campus Ambassador for your school, sign up to get more information on our program <a href="http://eepurl.com/cVJZZL"><strong>here!</strong></a>
-  </p>
-<!-- Sign up form - uncomment when releasing sign up form
-<div class="row">
-<div class="offers col-sm-8 col-xs-8">
-<ul class="col-sm-6 col-xs-6">
-<li>24 Hours</li>
-<li>Workshops</li>
-<li>Coding</li>
-</ul>
-
-<ul class="col-sm-6 col-xs-6">
-<li>Free Food</li>
-<li>Swag</li>
-<li>Networking</li>
-</ul>
-</div>
-
-<div class="price col-sm-4 col-xs-4">
-<h5>SIGN UP</h5>
-<p><strong>NOW</strong></p>
-</div>
-</div>
--->
-</div>
-
-
-
-<div id="sponsors" class="sponsoring" href="#sponsors" style="background:rgb(231,231,231);">
-  <br>
-  <br>
-    <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px;"><b>sponsors</b></div><br><br>
-  <div align="left">
-       
-    <h2 style="text-align=center;">Sponsor logos will go here. Interested in sponsoring? </h2>
-    <h3 style="font-size: 20px">For more information and pricing, email us at
+        </div>
+        <div id="schedule" class="about" href="schedule" style="background:rgb(231,231,231)">
+            <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px;"><b>schedule</b></div>
+            <br>
+            <br>
+            <p>
+                Schedule TBD
+            </p>
+        </div>
+        <div id="faq" class="faq" href="faq">
+            <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px;"><b>faq</b></div>
+            <br>
+            <br>
+            <button class="accordion">What is FwdCode?</button>
+            <div class="panel">
+                <br>
+                <p>FwdCode is a college hackathon promoting unity and social good. Each event is 24 hours long and will be open to college students across the U.S.</p>
+            </div>
+            <button class="accordion">What even is a hackathon anyway?</button>
+            <div class="panel">
+                <br>
+                <p>I'm glad you asked! A hackathon is basically a coding competition, where coders come to create projects and work together. At FwdCode, our hackathon will also include workshops, networking opportunity, prizes, swag, and more!</p>
+            </div>
+            <button class="accordion">Where will FwdCode be held?</button>
+            <div class="panel">
+                <br>
+                <p>Every FwdCode event will be held in a different location. Stay tuned for the location of the first event!</p>
+            </div>
+            <button class="accordion">When will FwdCode be held?</button>
+            <div class="panel">
+                <br>
+                <p>The first FwdCode event will be held in Fall 2017. Stay tuned for the exact dates of the event!</p>
+            </div>
+            <button class="accordion">What do I need to bring to FwdCode?</button>
+            <div class="panel">
+                <br>
+                <p>The only requirements are a computer, any charging equipment you may need, and yourself! Many hackers also like to bring a sleeping bag and/or pillow (there usually isn't much sleeping at a hackathon, but some hackers like to take a nap or two!), toothbrush/toothpaste, or a change of clothes (if you want to freshen up). If you plan on doing any hardware hacking, you need to bring all of the materials you're going to use for that.</p>
+            </div>
+            <button class="accordion">What will be provided?</button>
+            <div class="panel">
+                <br>
+                <p>We will provide three meals (lunch and dinner on the first day and breakfast on the second) as well as abundant snacks and drinks. If you choose not to eat the food we provide, you're responsible for getting your own meals (unless you have an allergy or dietary restriction, which we will accomodate -- just let us know!). We'll also provide outlets, t-shirts, swag, and wifi. If you have any specific questions about what will be provided please email us at hello@fwdcode.org.</p>
+            </div>
+            <button class="accordion">What are the requirements to attend?</button>
+            <div class="panel">
+                <br>
+                <p>The only requirement to attend is that you are a college student. You don't need to have any coding or hackathon experience -- just a willingness to collaborate and create!</p>
+            </div>
+            <button class="accordion">Does it cost anything to attend?</button>
+            <div class="panel">
+                <br>
+                <p>Nope! FwdCode is completely free for anyone who attends. The only cost you're responsible for is getting to the event.</p>
+            </div>
+            <button class="accordion">Will you provide travel reimbursements?</button>
+            <div class="panel">
+                <br>
+                <p>Maybe! We'll release more information on that when we can.</p>
+            </div>
+            <button class="accordion">Can I attend if I'm in high school?</button>
+            <div class="panel">
+                <br>
+                <p>Maybe! Email us at hello@fwdcode.org if you're in high school and would like to attend.</p>
+            </div>
+            <br>
+            <p>
+                <strong>Have a question that we didn't answer? Email us at hello@fwdcode.org or fill out the contact form below!</strong>
+                <br>
+            </p>
+        </div>
+        <div id="apply" class="signup" href="#apply">
+            <div style="color:white; border-bottom: 1.5px solid white; margin-right:700px; font-size:30px;"><b>apply</b></div>
+            <br>
+            <br>
+            <h3>Want to <strong>attend FwdCode?</strong></h3>
+            <p style="text-align:left; font-size:20px">Sign ups will open soon! In the meantime, keep up to date with everything FwdCode signing up for our general mailing list <a href="#contact"><strong>below!</strong></a></p>
+            <br>
+            <h3>Interested in helping <strong>organize FwdCode?</strong></h3>
+            <p style="text-align:left; font-size:20px"> Applications for our team are closed, but if you're interested in being a Campus Ambassador for your school, sign up to get more information on our program <a href="http://eepurl.com/cVJZZL"><strong>here!</strong></a>
+            </p>
+            
+          <!-- Sign up form - uncomment when releasing sign up form
+          <div class="row">
+              <div class="offers col-sm-8 col-xs-8">
+                  <ul class="col-sm-6 col-xs-6">
+                      <li>24 Hours</li>
+                      <li>Workshops</li>
+                      <li>Coding</li>
+                  </ul>
+                  <ul class="col-sm-6 col-xs-6">
+                      <li>Free Food</li>
+                      <li>Swag</li>
+                      <li>Networking</li>
+                  </ul>
+              </div>
+              <div class="price col-sm-4 col-xs-4">
+                  <h5>SIGN UP</h5>
+                  <p><strong>NOW</strong></p>
+              </div>
+          </div>  
+          -->
+        </div>
+        <div id="sponsors" class="sponsoring" href="#sponsors" style="background:rgb(231,231,231);">
+            <br>
+            <br>
+            <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px;"><b>sponsors</b></div>
+            <br>
+            <br>
+            <div align="left">
+                <h2 style="text-align=center;">Sponsor logos will go here. Interested in sponsoring? </h2>
+                <h3 style="font-size: 20px">For more information and pricing, email us at
       
-    <a href="mailto:sponsorship@fwdcode.org" style="font-size:20px; color:#666;"><i class="ion-email" style="color:#4AC9E3;"></i>
-        sponsorship@fwdcode.org</a>!</h3>
-    
-    <!--<button type="button" class="nextpagebutton" onclick="location.href='sponsorship.html'" al="center">View our sponsorship tiers here!</button>-->
+                <a href="mailto:sponsorship@fwdcode.org" style="font-size:20px; color:#666;"><i class="ion-email" style="color:#4AC9E3;"></i> sponsorship@fwdcode.org</a>!</h3>
 
-  </div>
-
-
-</div>
-<div id="team" href="#team" style="padding: 10%; margin-left:10%">
-    <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:500px; font-size:30px; margin-left:-14%"><b>our team</b></div><br>
-     <div style="color:dimgray; font-size:24px; margin-left:-14%"><b>8 members, 7 colleges, 4 time zones, 1 great team.</b></div><br><br>
-  
-<div class="row2">
-  <div class="column">
-    <div class="card" style="width:300px;">
-        <div class="headshotEmily" alt="Emily" style="height:300px;"></div>
-      <div class="container">
-        <h2>Emily Redler</h2>
-        <p class="title">Co-Founder &amp; Head Organizer</p>  
-          
-          <div style="margin-top: -3%; margin-left: -1%">
-              <a href="mailto:emily@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
-              <a href="https://www.twitter.com/emsoap212" class="bioSocial"><i class="icon ion-social-twitter" ></i></a>
-                <a href="https://www.linkedin.com/in/emilyredler" class="bioSocial"><i class="icon ion-social-linkedin" ></i></a>
-              </div>
-      </div>
-    </div>
-  </div>
-    <div class="column" style="margin-top: 5%;">
-    <p class="bioPR">Emily is a sophomore at Davidson College studying psychology. She is a Research Assistant in the Davidson College MAPLab, where she works on psychological research related to mood, attitude, and parenting. She is also a former Customer Experience Design Intern at Dow Jones. In addition, in high school she founded and expanded def hacks() hackathon along with Caitlin. Her current obsessions include Starbucks, Hamilton, and anything chocolate.</p>
-    </div>
-    </div>
-    <div class="row2">
-        <div class="column" style="margin-top: 5%; ">
-    <p class="bioPL">Caitlin is a sophomore at Cornell University studying electrical and computer engineering. She is a Girls Who Code program alumna, as well as a former #BUILTBYGIRLS technical intern at AOL/Oath and a software engineering intern for ASK Applications. She has helped found the PixieHacks hackathon and ProgramHers organization, both to immerse females in tech, and founded and expanded def hacks() alongside Emily. In her free time, she enjoys a solid brunch, enjoyable movie, and long-winded Netflix session.</p>
-    </div>
-  <div class="column" >
-    <div class="card" style="width:300px;">
-      <div class="headshotCaitlin" alt="Caitlin" style="height:300px"></div>
-      <div class="container">
-        <h2>Caitlin Stanton</h2>
-        <p class="title">Co-Founder &amp; Head Organizer</p>
-        <div style="margin-top: -3%; margin-left: -1%">
-              <a href="mailto:caitlin@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
-              
-              </div>
-      </div>
-    </div>
-  </div> 
-</div>
-<div class="row2">
-  <div class="column">
-    <div class="card" style="width:300px">
-        <div class="headshotIsabelle" alt="Isabelle" style="height:300px"></div>
-      <div class="container">
-        <h2 style="font-size:30px;">Isabelle Lavandero</h2>
-        <p class="title">Director of Sponsor Relations</p>
-        <div style="margin-top: -3%; margin-left: -1%">
-              <a href="mailto:isabelle@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-    <div class="column" style="margin-top: 5%">
-    <p class="bioPR">Hailing from the tropical archipelago of the Philippines, Isabelle is a sophomore at New York University studying journalism and computer science. She currently enjoys being a business analytics intern at Nestlé and a writer for Her Culture magazine. Concerts, art galleries, and milk tea are a few of her favorite things.</p>
-    </div>
-    </div>
-    <div class="row2">
-        <div class="column" style="margin-top: 5%">
-    <p class="bioPL">Roz is a sophomore studying computer science and economics at the University of Wisconsin Madison. She is one of the software leads for Wisconsin Robotics where she works on the on-board controls of their Mars rover. When she's not coding, Roz can be found reading about finance, cooking with her friends or dancing at concerts.</p>
-    </div>
-  <div class="column">
-    <div class="card" style="width:300px">
-      <div class="headshotRoz" alt="Rosalind" style="height:300px"></div>
-      <div class="container">
-        <h2>Rosalind Stengle</h2>
-        <p class="title">Director of Hacker Relations</p>
-        <div style="margin-top: -3%; margin-left: -1%">
-              <a href="mailto:rosalind@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+        <div id="team" href="#team" style="padding: 10%; margin-left:10%">
+            <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:500px; font-size:30px; margin-left:-14%"><b>our team</b></div>
+            <br>
+            <div style="color:dimgray; font-size:24px; margin-left:-14%"><b>8 members, 7 colleges, 4 time zones, 1 great team.</b></div>
+            <br>
+            <br>
+            <div class="row2">
+                <div class="column">
+                    <div class="card" style="width:300px;">
+                        <div class="headshot-common headshotEmily" alt="Emily" style="height:300px;"></div>
+                        <div class="container">
+                            <h2>Emily Redler</h2>
+                            <p class="title">Co-Founder &amp; Head Organizer</p>
+                            <div style="margin-top: -3%; margin-left: -1%">
+                                <a href="mailto:emily@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+                                <a href="https://www.twitter.com/emsoap212" class="bioSocial"><i class="icon ion-social-twitter" ></i></a>
+                                <a href="https://www.linkedin.com/in/emilyredler" class="bioSocial"><i class="icon ion-social-linkedin" ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" style="margin-top: 5%;">
+                    <p class="bioPR">Emily is a sophomore at Davidson College studying psychology. She is a Research Assistant in the Davidson College MAPLab, where she works on psychological research related to mood, attitude, and parenting. She is also a former Customer Experience Design Intern at Dow Jones. In addition, in high school she founded and expanded def hacks() hackathon along with Caitlin. Her current obsessions include Starbucks, Hamilton, and anything chocolate.</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="column" style="margin-top: 5%; ">
+                    <p class="bioPL">Caitlin is a sophomore at Cornell University studying electrical and computer engineering. She is a Girls Who Code program alumna, as well as a former #BUILTBYGIRLS technical intern at AOL/Oath and a software engineering intern for ASK Applications. She has helped found the PixieHacks hackathon and ProgramHers organization, both to immerse females in tech, and founded and expanded def hacks() alongside Emily. In her free time, she enjoys a solid brunch, enjoyable movie, and long-winded Netflix session.</p>
+                </div>
+                <div class="column">
+                    <div class="card" style="width:300px;">
+                        <div class="headshot-common headshotCaitlin" alt="Caitlin" style="height:300px"></div>
+                        <div class="container">
+                            <h2>Caitlin Stanton</h2>
+                            <p class="title">Co-Founder &amp; Head Organizer</p>
+                            <div style="margin-top: -3%; margin-left: -1%">
+                                <a href="mailto:caitlin@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="column">
+                    <div class="card" style="width:300px">
+                        <div class="headshot-common headshotIsabelle" alt="Isabelle" style="height:300px"></div>
+                        <div class="container">
+                            <h2 style="font-size:30px;">Isabelle Lavandero</h2>
+                            <p class="title">Director of Sponsor Relations</p>
+                            <div style="margin-top: -3%; margin-left: -1%">
+                                <a href="mailto:isabelle@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" style="margin-top: 5%">
+                    <p class="bioPR">Hailing from the tropical archipelago of the Philippines, Isabelle is a sophomore at New York University studying journalism and computer science. She currently enjoys being a business analytics intern at Nestlé and a writer for Her Culture magazine. Concerts, art galleries, and milk tea are a few of her favorite things.</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="column" style="margin-top: 5%">
+                    <p class="bioPL">Roz is a sophomore studying computer science and economics at the University of Wisconsin Madison. She is one of the software leads for Wisconsin Robotics where she works on the on-board controls of their Mars rover. When she's not coding, Roz can be found reading about finance, cooking with her friends or dancing at concerts.</p>
+                </div>
+                <div class="column">
+                    <div class="card" style="width:300px">
+                        <div class="headshot-common headshotRoz" alt="Rosalind" style="height:300px"></div>
+                        <div class="container">
+                            <h2>Rosalind Stengle</h2>
+                            <p class="title">Director of Hacker Relations</p>
+                            <div style="margin-top: -3%; margin-left: -1%">
+                                <a href="mailto:rosalind@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="column">
+                    <div class="card" style="width:300px">
+                        <div class="headshot-common headshotShalini" alt="Shalini" style="height:300px"></div>
+                        <div class="container">
+                            <h2>Shalini Kunapuli</h2>
+                            <p class="title">Co-Director of Logistics</p>
+                            <div style="margin-top: -3%; margin-left: -1%">
+                                <a href="mailto:shalini@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" style="margin-top: 5%">
+                    <p class="bioPR">Shalini is a sophomore at UC Berkeley studying computer science. She has been involved with many women in technology empowerment organizations, including the National Center for Women and Information Technology, and Girls Who Code as a Teaching Assistant. She was also on the Program Development Team for ProjectCSGIRLS, and planned events with the Society of Women Engineers, all in an effort to promote diversity in computing fields. She has a passion for dance and music and occasionally likes to vlog!</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="column" style="margin-top: r%">
+                    <p class="bioPL">John is a sophomore at Davidson College studying political science and interpersonal communication. Outside of those subjects he is an active participant in music, performing vocal and saxophone pieces, as well as singing in the Androgyny A Capella group and serving as that group's media chair. In high school he attended the college hackathon MHacks, hosted at the University of Michigan. In his free time he enjoys reading, film making, and traveling.</p>
+                </div>
+                <div class="column">
+                    <div class="card" style="width:300px">
+                        <div class="headshot-common headshotJohn" alt="John" style="height:300px"></div>
+                        <div class="container">
+                            <h2>John Crawford</h2>
+                            <p class="title">Co-Director of Logistics</p>
+                            <div style="margin-top: -3%; margin-left: -1%">
+                                <a href="mailto:john@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="column">
+                    <div class="card" style="width:300px">
+                        <div class="headshot-common headshotJulia" alt="Julia" style="height:300px"></div>
+                        <div class="container">
+                            <h2>Julia Martin</h2>
+                            <p class="title">Director of Marketing</p>
+                            <div style="margin-top: -3%; margin-left: -1%">
+                                <a href="mailto:julia@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" style="margin-top: 5%">
+                    <p class="bioPR">Before starting Harvard University in the fall of 2018, Julia is taking a gap year, during which she will be going to Seville to begin learning Spanish and then to Shanghai to build upon her eight years of Mandarin instruction. A Girls Who Code program alumna and a former Security Analyst Intern at IAC, Julia co-organized "Bit By Bit: Breaking the Barrier for Girls in Tech," a NYC-based conference to get more high school girls interested in tech. When she is not coding or practicing her Chinese, you can catch her playing volleyball or watching "I Love Lucy" re-runs.</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="column" style="margin-top: 5%">
+                    <p class="bioPL">Emily is a freshman at Stanford University planning to study computer science. She is the co-founder of District CoderDojo, where students ages 7 to 17 can learn how to computer program for free. She also interned at the National Institutes of Health Undiagnosed Diseases Program, where she created multiple computer programs and expanded her knowledge of genetics. In her free time, Emily likes to cook, watch The Office, and travel to new places.</p>
+                </div>
+                <div class="column">
+                    <div class="card" style="width:300px">
+                        <div class="headshot-common headshotEmilyK" alt="Emily Kaperst" style="height:300px"></div>
+                        <div class="container">
+                            <h2>Emily Kaperst</h2>
+                            <p class="title">Director of Campus Ambassadors</p>
+                            <div style="margin-top: -3%; margin-left: -1%">
+                                <a href="mailto:emilykaperst@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div> 
-</div>
-<div class="row2">
-  <div class="column">
-    <div class="card" style="width:300px">
-        <div class="headshotShalini" alt="Shalini" style="height:300px"></div>
-      <div class="container">
-        <h2>Shalini Kunapuli</h2>
-        <p class="title">Co-Director of Logistics</p>
-        <div style="margin-top: -3%; margin-left: -1%">
-              <a href="mailto:shalini@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+        <div style="padding:10%; margin-bottom: -10%">
+            <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:300px; font-size:30px;"><b>follow us on social media!</b></div>
+            <br>
+            <br>
         </div>
-      </div>
-    </div>
-  </div>
-    <div class="column" style="margin-top: 5%">
-    <p class="bioPR">Shalini is a sophomore at UC Berkeley studying computer science. She has been involved with many women in technology empowerment organizations, including the National Center for Women and Information Technology, and Girls Who Code as a Teaching Assistant. She was also on the Program Development Team for ProjectCSGIRLS, and planned events with the Society of Women Engineers, all in an effort to promote diversity in computing fields. She has a passion for dance and music and occasionally likes to vlog!</p>
-    </div>
-    </div>
-    <div class="row2">
-        <div class="column" style="margin-top: r%">
-    <p class="bioPL">John is a sophomore at Davidson College studying political science and interpersonal communication. Outside of those subjects he is an active participant in music, performing vocal and saxophone pieces, as well as singing in the Androgyny A Capella group and serving as that group's media chair. In high school he attended the college hackathon MHacks, hosted at the University of Michigan. In his free time he enjoys reading, film making, and traveling.</p>
-    </div>
-  <div class="column">
-    <div class="card" style="width:300px">
-      <div class="headshotJohn" alt="John" style="height:300px"></div>
-      <div class="container">
-        <h2>John Crawford</h2>
-        <p class="title">Co-Director of Logistics</p>
-        <div style="margin-top: -3%; margin-left: -1%">
-              <a href="mailto:john@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
+        <div align="center">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFwdCode-323203148101159&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <!-- UNCOMMENT WHEN READY TO SHOW TWITTER TIMELINE <a class="twitter-grid" href="https://twitter.com/fwd_code">FwdCode Tweets</a> -->
         </div>
-      </div>
-    </div>
-  </div> 
-</div>
-<div class="row2">
-  <div class="column">
-    <div class="card" style="width:300px">
-        <div class="headshotJulia" alt="Julia" style="height:300px"></div>
-      <div class="container">
-        <h2>Julia Martin</h2>
-        <p class="title">Director of Marketing</p>
-        <div style="margin-top: -3%; margin-left: -1%">
-              <a href="mailto:julia@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-    <div class="column" style="margin-top: 5%">
-    <p class="bioPR">Before starting Harvard University in the fall of 2018, Julia is taking a gap year, during which she will be going to Seville to begin learning Spanish and then to Shanghai to build upon her eight years of Mandarin instruction. A Girls Who Code program alumna and a former Security Analyst Intern at IAC, Julia co-organized "Bit By Bit: Breaking the Barrier for Girls in Tech," a NYC-based conference to get more high school girls interested in tech. When she is not coding or practicing her Chinese, you can catch her playing volleyball or watching "I Love Lucy" re-runs.</p>
-    </div>
-    </div>
-    <div class="row2">
-        <div class="column" style="margin-top: 5%">
-    <p class="bioPL">Emily is a freshman at Stanford University planning to study computer science. She is the co-founder of District CoderDojo, where students ages 7 to 17 can learn how to computer program for free. She also interned at the National Institutes of Health Undiagnosed Diseases Program, where she created multiple computer programs and expanded her knowledge of genetics. In her free time, Emily likes to cook, watch The Office, and travel to new places.</p>
-    </div>
-  <div class="column">
-    <div class="card" style="width:300px">
-      <div class="headshotEmilyK" alt="Emily Kaperst" style="height:300px"></div>
-      <div class="container">
-        <h2>Emily Kaperst</h2>
-        <p class="title">Director of Campus Ambassadors</p>
-        <div style="margin-top: -3%; margin-left: -1%">
-              <a href="mailto:emilykaperst@fwdcode.org" class="bioSocial"><i class="ion-email"></i></a>
-        </div>
-      </div>
-    </div>
-  </div> 
-</div>
-    </div>
-
-            
-    
-            
-            
-            
-            
-    
-
-<div style="padding:10%; margin-bottom: -10%">
-  <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:300px; font-size:30px;"><b>follow us on social media!</b></div><br><br>
-</div>
-<div align="center">
-  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFwdCode-323203148101159&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
- <!-- UNCOMMENT WHEN READY TO SHOW TWITTER TIMELINE <a class="twitter-grid" href="https://twitter.com/fwd_code">FwdCode Tweets</a> -->
-</div>
-            
-
-<div id="contact" class="row" style="text-align: center; padding:10%">
-    <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px; text-align: left"><b>contact</b></div><br><br>
-  <h2><strong>Get in touch</strong>, we'd love to hear from you.</h2>
-  <h4>Have a question? Comment? Suggestion? Let us know at: </h4>
-
-  <span class="row">
+        <div id="contact" class="row" style="text-align: center; padding:10%">
+            <div style="color:dimgray; border-bottom: 1.5px solid dimgray; margin-right:700px; font-size:30px; text-align: left"><b>contact</b></div>
+            <br>
+            <br>
+            <h2><strong>Get in touch</strong>, we'd love to hear from you.</h2>
+            <h4>Have a question? Comment? Suggestion? Let us know at: </h4>
+            <span class="row">
     <a href="mailto:hello@fwdcode.org" style="font-size:20px; color:#666;"><i class="ion-email" style="color:#4AC9E3;"></i>
       hello@fwdcode.org</a>
     </span>
-
-
-
-    <!-- Begin MailChimp Signup Form -->
-    <br><br>
-    <div id="mc_embed_signup" style="text-align:center">
-      <form action="https://fwdcode.us16.list-manage.com/subscribe/post?u=916715c2a59e611bf291ed805&amp;id=77ac96902f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-          <h2 style="color:#666666">Want to stay up to date on everything FwdCode? </h2><h1><strong>Sign up</strong> for our mailing list!</h1>
-          <div class="indicates-required" style="color:#666666"><span class="asterisk">*</span> indicates required</div><br>
-          <div class="mc-field-group">
-            <input  type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email *">
-          </div><br>
-          <div class="mc-field-group">
-            <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
-          </div><br>
-          <div class="mc-field-group" >
-            <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
-          </div><br>
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_916715c2a59e611bf291ed805_77ac96902f" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            <!-- Begin MailChimp Signup Form -->
+            <br>
+            <br>
+            <div id="mc_embed_signup" style="text-align:center">
+                <form action="https://fwdcode.us16.list-manage.com/subscribe/post?u=916715c2a59e611bf291ed805&amp;id=77ac96902f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <h2 style="color:#666666">Want to stay up to date on everything FwdCode? </h2>
+                        <h1><strong>Sign up</strong> for our mailing list!</h1>
+                        <div class="indicates-required" style="color:#666666"><span class="asterisk">*</span> indicates required</div>
+                        <br>
+                        <div class="mc-field-group">
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email *">
+                        </div>
+                        <br>
+                        <div class="mc-field-group">
+                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
+                        </div>
+                        <br>
+                        <div class="mc-field-group">
+                            <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
+                        </div>
+                        <br>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_916715c2a59e611bf291ed805_77ac96902f" tabindex="-1" value="">
+                        </div>
+                        <div class="clear">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+            <script type='text/javascript'>
+            (function($) {
+                window.fnames = new Array();
+                window.ftypes = new Array();
+                fnames[0] = 'EMAIL';
+                ftypes[0] = 'email';
+                fnames[1] = 'FNAME';
+                ftypes[1] = 'text';
+                fnames[2] = 'LNAME';
+                ftypes[2] = 'text';
+            }(jQuery));
+            var $mcj = jQuery.noConflict(true);
+            </script>
+            <!--End mc_embed_signup-->
         </div>
-      </form>
+        <footer>
+            <p class="uppercase">© FwdCode Inc. 2017 <i class="ion-heart"></i></p>
+            <div class="drag">
+                <i class="up ion-arrow-up-c"></i>
+            </div>
+        </footer>
     </div>
+    </section>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/animsition.min.js"></script>-->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/twitterFetcher_min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/photoswipe.min.js"></script>
+    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="js/jqinstapics.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script type="text/javascript">
+    particlesJS("particles-js", {
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onclick": {
+                    "enable": false,
+                    "mode": "push"
+                },
+                "onhover": {
+                    "enable": false,
+                    "mode": "repulse"
+                },
+                "resize": true
+            },
+            "modes": {
+                "bubble": {
+                    "distance": 400,
+                    "duration": 2,
+                    "opacity": 8,
+                    "size": 40,
+                    "speed": 3
+                },
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                }
+            }
+        },
+        "particles": {
+            "color": {
+                "value": "#ffffff"
+            },
+            "line_linked": {
+                "color": "#ffffff",
+                "distance": 150,
+                "enable": true,
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                },
+                "bounce": false,
+                "direction": "none",
+                "enable": true,
+                "out_mode": "out",
+                "random": false,
+                "speed": 6,
+                "straight": false
+            },
+            "number": {
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                },
+                "value": 67
+            },
+            "opacity": {
+                "anim": {
+                    "enable": false,
+                    "opacity_min": 0.1,
+                    "speed": 1,
+                    "sync": false
+                },
+                "random": false,
+                "value": 0.5
+            },
+            "shape": {
+                "image": {
+                    "height": 100,
+                    "src": "img/github.svg",
+                    "width": 100
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "stroke": {
+                    "color": "#000000",
+                    "width": 0
+                },
+                "type": "triangle"
+            },
+            "size": {
+                "anim": {
+                    "enable": false,
+                    "size_min": 0.1,
+                    "speed": 40,
+                    "sync": false
+                },
+                "random": true,
+                "value": 12
+            }
+        },
+        "retina_detect": true
+    });
 
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    var count_particles, stats, update;
 
-    <!--End mc_embed_signup-->
-  </div>
-
-  <footer>
-    <p class="uppercase">© FwdCode Inc. 2017 <i class="ion-heart"></i></p>
-    <div class="drag">
-      <i class="up ion-arrow-up-c"></i>
-    </div>
-      
-  </footer>
-
-</div>
-
-</section>
-
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!--<script src="js/animsition.min.js"></script>-->
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.countdown.min.js"></script>
-<script src="js/twitterFetcher_min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/photoswipe.min.js"></script>
-<script src="js/photoswipe-ui-default.min.js"></script>
-<script src="js/jqinstapics.min.js"></script>
-<script src="js/particles.min.js"></script>
-<script type="text/javascript">
-  particlesJS("particles-js", 
-	{
-	  "interactivity": {
-	    "detect_on": "canvas", 
-	    "events": {
-	      "onclick": {
-	        "enable": false, 
-	        "mode": "push"
-	      }, 
-	      "onhover": {
-	        "enable": false, 
-	        "mode": "repulse"
-	      }, 
-	      "resize": true
-	    }, 
-	    "modes": {
-	      "bubble": {
-	        "distance": 400, 
-	        "duration": 2, 
-	        "opacity": 8, 
-	        "size": 40, 
-	        "speed": 3
-	      }, 
-	      "grab": {
-	        "distance": 400, 
-	        "line_linked": {
-	          "opacity": 1
-	        }
-	      }, 
-	      "push": {
-	        "particles_nb": 4
-	      }, 
-	      "remove": {
-	        "particles_nb": 2
-	      }, 
-	      "repulse": {
-	        "distance": 200, 
-	        "duration": 0.4
-	      }
-	    }
-	  }, 
-	  "particles": {
-	    "color": {
-	      "value": "#ffffff"
-	    }, 
-	    "line_linked": {
-	      "color": "#ffffff", 
-	      "distance": 150, 
-	      "enable": true, 
-	      "opacity": 0.4, 
-	      "width": 1
-	    }, 
-	    "move": {
-	      "attract": {
-	        "enable": false, 
-	        "rotateX": 600, 
-	        "rotateY": 1200
-	      }, 
-	      "bounce": false, 
-	      "direction": "none", 
-	      "enable": true, 
-	      "out_mode": "out", 
-	      "random": false, 
-	      "speed": 6, 
-	      "straight": false
-	    }, 
-	    "number": {
-	      "density": {
-	        "enable": true, 
-	        "value_area": 800
-	      }, 
-	      "value": 67
-	    }, 
-	    "opacity": {
-	      "anim": {
-	        "enable": false, 
-	        "opacity_min": 0.1, 
-	        "speed": 1, 
-	        "sync": false
-	      }, 
-	      "random": false, 
-	      "value": 0.5
-	    }, 
-	    "shape": {
-	      "image": {
-	        "height": 100, 
-	        "src": "img/github.svg", 
-	        "width": 100
-	      }, 
-	      "polygon": {
-	        "nb_sides": 5
-	      }, 
-	      "stroke": {
-	        "color": "#000000", 
-	        "width": 0
-	      }, 
-	      "type": "triangle"
-	    }, 
-	    "size": {
-	      "anim": {
-	        "enable": false, 
-	        "size_min": 0.1, 
-	        "speed": 40, 
-	        "sync": false
-	      }, 
-	      "random": true, 
-	      "value": 12
-	    }
-	  }, 
-	  "retina_detect": true
-	}
-  );
-
-  var count_particles, stats, update;
-
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() { 
-     if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); };
-  requestAnimationFrame(update);
-</script>
-<script src="js/script.js"></script>
-<script src="js/countdown.js"></script>
-
-
+    count_particles = document.querySelector('.js-count-particles');
+    update = function() {
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/countdown.js"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    
 </body>
-</html>
 
+</html>

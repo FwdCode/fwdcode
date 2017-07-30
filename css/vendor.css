@@ -1,0 +1,76 @@
+    #mc_embed_signup {
+        background: none;
+        clear: left;
+        font: 14px Poppins, Arial, sans-serif;
+    }
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+    #mc_embed_signup .mc-field-group {
+        padding-bottom: 0%;
+    }
+
+    #mce_embed_signup .mc_field_group {
+        border: none;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100px;
+        height: 45px;
+        border-radius: 3px;
+        color: #fff !important;
+        -webkit-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-weight: 600;
+        background: #1d2328;
+        color: #fff;
+        background: #4AC9E3;
+    }
+
+    #mc_embed_signup .button {
+        border: none;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100px;
+        height: 45px;
+        border-radius: 3px;
+        color: #fff !important;
+        -webkit-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-weight: 600;
+        background: #1d2328;
+        background: #4AC9E3;
+        color: #fff;
+    }
+
+
+    #mc_embed_signup .button:hover {
+        background-color: #215c68;
+    }
+
+    #mc_embed_signup input {
+        border: none;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 200px;
+        height: 45px;
+        border-radius: 3px;
+        color: #fff !important;
+        -webkit-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        font-weight: 600;
+        background: #1d2328;
+        color: #fff;
+    }
+
+    #mc_embed_signup input:focus {
+        background: #ADAEB0;
+    }

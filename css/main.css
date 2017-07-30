@@ -1,0 +1,55 @@
+/* typography */
+
+.main-head {
+    text-align: center;
+    font-size: 13vw;
+    color: #fff;
+    letter-spacing: -.07em;
+    text-shadow: 1px 1px 2px black, 0 0 1em #ff0053, 0 0 0.2em #00a099;
+    margin-bottom: 0;
+}
+
+.main-subhead {
+    text-align: center;
+    font-size: 59px;
+    color: #000;
+    margin-top: -5%;
+    line-height: 1em;
+    text-shadow: 1px 1px 2px black, 0 0 1em #91ccde, 0 0 2.2em #ff0052;
+    color: #fff;
+    letter-spacing: -0.05em;
+}
+
+
+
+
+
+/* headshots */
+
+.headshot-common {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.headshot-common:hover {
+    transition:all 0.4s;
+    transform:scale(1.05);
+}
+
+.headshotCaitlin        { background-image: url("../img/Headshots/caitlinbw.jpg"); }
+.headshotCaitlin:hover  { background-image: url("../img/Headshots/caitlin4.jpg"); }
+.headshotEmily          { background-image: url("../img/Headshots/emily2bw.jpg"); }
+.headshotEmily:hover    { background-image: url("../img/Headshots/emily2.jpg"); }
+.headshotEmilyK         { background-image: url("../img/Headshots/emilykbw.jpg"); }
+.headshotEmilyK:hover   { background-image: url("../img/Headshots/emilykaperst2.jpg"); }
+.headshotIsabelle       { background-image: url("../img/Headshots/isabellebw.jpg"); }
+.headshotIsabelle:hover { background-image: url("../img/Headshots/isabelle2.jpg"); }
+.headshotJohn           { background-image: url("../img/Headshots/johnbw.jpg"); }
+.headshotJohn:hover     { background-image: url("../img/Headshots/john2.jpg"); }
+.headshotJulia          { background-image: url("../img/Headshots/juliabw.jpg"); }
+.headshotJulia:hover    { background-image: url("../img/Headshots/julia2.jpg"); }
+.headshotRoz            { background-image: url("../img/Headshots/rosalindbw.jpg"); }
+.headshotRoz:hover      { background-image: url("../img/Headshots/rosalind2.jpg"); }
+.headshotShalini        { background-image: url("../img/Headshots/shalinibw.jpg"); }
+.headshotShalini:hover  { background-image: url("../img/Headshots/shalini2.jpg"); }
