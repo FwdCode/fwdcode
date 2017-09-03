@@ -49,6 +49,17 @@ table {
 /* Generic styles ................... */
 /* ------------------------------------- */
 
+button.casignup {
+    border-radius:10px; 
+    border:none; 
+    background-color:#4AC9E3;
+}
+
+button.casignup:hover{
+    background-color:#215c68;
+    transition: .2s;
+}
+
 .parallax { 
     /* The image used */
     background-image: url("../img/color%20from%20computer%20small%20crop.jpeg");
@@ -92,6 +103,7 @@ table {
     margin-left: 0%
         
 }
+
 
 @media (max-width: 850px) {
     .bioPL {
